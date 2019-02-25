@@ -1,5 +1,5 @@
 class Item:
-  def __init__(self, name, width, height, x_pos, y_pos, image_path)
+	def __init__(self, name, width, height, x_pos, y_pos, image_path)
 		object_image = pygame.image.load(image_path)
 		self.image = pygame.transform.scale(object_image, (width, height))
 		self.name = name
@@ -9,7 +9,7 @@ class Item:
 		self.y_pos = y_pos
 		
 	def draw(self, background):
-    background.blit(self.image, (self.x_pos, self.y_pos))
+		background.blit(self.image, (self.x_pos, self.y_pos))
 
 class Weapon(Item):
 	def __init__(self, name, damage, width, height, x_pos, y_pos, image_path)
