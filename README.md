@@ -12,3 +12,5 @@ rpg.py has main code on game loop
 characters.py has main code on object classes
 
 when you run rpg.py, you get a green screen with a movable player.png using W A S D keys
+
+tools.py has not been implemented to anything
